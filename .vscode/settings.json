@@ -1,0 +1,8 @@
+{
+	"powershell.pester.codeLens": false,
+	"python.linting.banditEnabled": true,
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+	"python.autoComplete.extraPaths": [
+	08dfcab2
+	]
+}
