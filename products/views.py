@@ -1,11 +1,11 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-
-# /products -> index
+from .models import Product
 
 
 def index(request):
-    return HttpResponse('this is products...')
+    products = Product.objects.all()
+    return render(request, 'index.html', {'products': products})
 
 
 def new(request):
